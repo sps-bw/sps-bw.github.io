@@ -111,6 +111,10 @@ p.footer {
   clear: both;
 }
 
+p.footer a {
+  color: #ccc;
+}
+
 @media all and (max-width: 1000px) {
   header {
     height: 60%;
