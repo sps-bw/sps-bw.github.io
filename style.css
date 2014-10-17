@@ -68,6 +68,7 @@ p.footer {
   text-align: center;
   color: #ccc;
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 @media all and (max-width: 1000px) {
