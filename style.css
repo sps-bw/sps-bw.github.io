@@ -64,11 +64,51 @@ header p {
   margin-top: 15px;
 }
 
+
+.pdfs {
+    margin-top: 50px;
+}
+
+.issue {
+    width: 48%;
+    float: left;
+}
+
+.issue img {
+    width: 40%;
+    float: left;
+    margin-right: 5%;
+}
+
+.clear {
+    clear: left;
+}
+
+.issue:nth-child(even) {
+    float: right;
+}
+
+a.download {
+    background: black;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Helvetica Neue';
+    font-weight: 300;
+    padding: 6px 10px 6px 10px;
+}
+
+.issue p {
+    margin-bottom: 20px;
+}
+
+
 p.footer {
   text-align: center;
   color: #ccc;
-  margin-top: 100px;
+  padding-top: 100px;
   padding-bottom: 50px;
+  clear: both;
 }
 
 @media all and (max-width: 1000px) {
